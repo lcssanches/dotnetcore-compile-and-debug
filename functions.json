@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "F0001",
+        "Version": "5",
+        "Source": [
+            "using System;",
+            "using System.Linq;",
+            "namespace CustomCode {",
+            "   public static class F0001 {",
+            "       public static string VERSION = \"4\";",
+            "       public static string Run(string text) {",
+            "           System.Diagnostics.Debugger.Break();",
+            "           Console.WriteLine($\"Testando teste: '{text}'\");",
+            "           return string.Join(\"\", text.Reverse());",
+            "       }",
+            "   }",
+            "}"
+        ]
+    }
+]
